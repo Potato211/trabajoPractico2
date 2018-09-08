@@ -1,10 +1,9 @@
 package org.openxava.direccion;
 
+import org.openxava.persona.*;
+
 @javax.persistence.Entity 
-public class Direccion
-{
-	public Direccion(){
-	}
+public class Direccion extends Persona{
 
 }
 
