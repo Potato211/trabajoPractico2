@@ -46,6 +46,12 @@ public class Persona extends ProfesorAlumnoDireccionPreceptoria
 		this.dni = dni;	
 	}
 	
-
+	public String getescuela() {
+		return escuela;
+	}
+	
+	public void setescuela(String escuela) {
+		this.escuela = escuela;	
+	}
 }
 
