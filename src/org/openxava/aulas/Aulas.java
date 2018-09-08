@@ -2,16 +2,17 @@ package org.openxava.aulas;
 
 import javax.persistence.*;
 
+import org.openxava.annotations.*;
 import org.openxava.preceptoria.*;
 
 @javax.persistence.Entity 
 
 public class Aulas{
 	
-	@Id @Column(length=40)
+	@Id @Column(length=40) @LabelFormat("ID")
 	public String id;
 	
-	@Column(length=40)
+	@Column(length=40) @LabelFormat("Ciclo"")
 	public String ciclo;
 	
 	public Preceptoria preceptoria;
