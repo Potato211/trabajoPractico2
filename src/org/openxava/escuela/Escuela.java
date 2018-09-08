@@ -12,7 +12,20 @@ public class Escuela
 	
 	public Persona persona;
 
-	public Escuela(){
+	public String setnombre() {
+		return nombre;
+	}
+	
+	public void getnombre(String nombre) {
+		this.nombre=nombre;
+	}
+	
+	public String setdireccion() {
+		return direccion;
+	}
+	
+	public void getdireccion(String direccion) {
+		this.direccion=direccion;
 	}
 
 }
