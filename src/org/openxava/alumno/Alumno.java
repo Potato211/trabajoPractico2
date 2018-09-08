@@ -1,8 +1,11 @@
 package org.openxava.alumno;
 
+import javax.persistence.*;
+
+import org.openxava.persona.*;
+
 @javax.persistence.Entity 
-public class Alumno
-{
+public class Alumno extends Persona {
 	
 	public String direccion;
 	
