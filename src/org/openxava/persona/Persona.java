@@ -21,7 +21,7 @@ public class Persona
 	public String tel;
 	
 	@Column(length=40)
-	public Escuela escuela;
+	public String escuela;
 
 	public String getnombre() {
 		return nombre;
