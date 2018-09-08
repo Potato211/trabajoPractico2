@@ -5,7 +5,8 @@ import javax.persistence.*;
 import org.openxava.escuela.*;
 
 @MappedSuperclass
-public class Persona extends ProfesorAlumnoDireccionPreceptoria
+
+public class Persona
 {
 	@Column(length=40)
 	public String nombre;
