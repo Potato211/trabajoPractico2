@@ -18,7 +18,20 @@ public class Preceptoria
 	
 	public Escuela escuela;
 
-	public Preceptoria(){
+	public String setnombre() {
+		return nombre;
+	}
+	
+	public void getnombre(String nombre) {
+		this.nombre=nombre;
+	}
+	
+	public String setciclo() {
+		return ciclo;
+	}
+	
+	public void getciclo(String ciclo) {
+		this.ciclo=ciclo;
 	}
 
 }
