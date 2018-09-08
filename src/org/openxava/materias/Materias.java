@@ -2,9 +2,11 @@ package org.openxava.materias;
 
 import javax.persistence.*;
 
+import org.openxava.preceptoria.*;
+
 @javax.persistence.Entity 
-public class Materias extends MateriasTeoriaMateriasTaller
-{
+public class Materias{
+	
 	@Column(length=40)
 	public String nombre;
 	
