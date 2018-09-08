@@ -13,7 +13,7 @@ public class Persona extends ProfesorAlumnoDireccionPreceptoria
 	@Column(length=40)
 	public String apellido;
 	
-	@Column(length=40)
+	@Id @Column(length=40)
 	public int dni;
 	
 	@Column(length=40)
@@ -22,9 +22,30 @@ public class Persona extends ProfesorAlumnoDireccionPreceptoria
 	@Column(length=40)
 	public Escuela escuela;
 
-
-	public Persona(){
+	public String getnombre() {
+		return nombre;
 	}
+	
+	public void setnombre(String nombre) {
+		this.nombre = nombre;	
+	}
+	
+	public String getapellido() {
+		return apellido;
+	}
+	
+	public void setapellido(String apellido) {
+		this.apellido = apellido;	
+	}
+	
+	public int getdni() {
+		return dni;
+	}
+	
+	public void setdni(int dni) {
+		this.dni = dni;	
+	}
+	
 
 }
 
